@@ -1,0 +1,113 @@
+{
+  "name": "adventure-world",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.7",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "lucide-react": "^0.436.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "https://pytho1-f2hagqapfpfngsdx.eastus-01.azurewebsites.net",
+  "sampleData": {
+    "page": 1,
+    "per_page": 10,
+    "products": [
+      {
+        "ProductID": 680,
+        "Name": "HL Road Frame - Black, 58",
+        "ListPrice": 1431.5,
+        "ThumbNailPhoto": "base64_encoded_string_here"
+      },
+      {
+        "ProductID": 706,
+        "Name": "HL Road Frame - Red, 58",
+        "ListPrice": 1431.5,
+        "ThumbNailPhoto": "base64_encoded_string_here"
+      },
+      {
+        "ProductID": 707,
+        "Name": "Sport-100 Helmet, Red",
+        "ListPrice": 34.99,
+        "ThumbNailPhoto": "base64_encoded_string_here"
+      },
+      {
+        "ProductID": 708,
+        "Name": "Sport-100 Helmet, Black",
+        "ListPrice": 34.99,
+        "ThumbNailPhoto": "base64_encoded_string_here"
+      },
+      {
+        "ProductID": 709,
+        "Name": "Mountain Bike Socks, M",
+        "ListPrice": 9.5,
+        "ThumbNailPhoto": "base64_encoded_string_here"
+      },
+      {
+        "ProductID": 710,
+        "Name": "Mountain Bike Socks, L",
+        "ListPrice": 9.5,
+        "ThumbNailPhoto": "base64_encoded_string_here"
+      },
+      {
+        "ProductID": 711,
+        "Name": "Sport-100 Helmet, Blue",
+        "ListPrice": 34.99,
+        "ThumbNailPhoto": "base64_encoded_string_here"
+      },
+      {
+        "ProductID": 712,
+        "Name": "AWC Logo Cap",
+        "ListPrice": 8.99,
+        "ThumbNailPhoto": "base64_encoded_string_here"
+      },
+      {
+        "ProductID": 713,
+        "Name": "Long-Sleeve Logo Jersey, S",
+        "ListPrice": 49.99,
+        "ThumbNailPhoto": "base64_encoded_string_here"
+      },
+      {
+        "ProductID": 714,
+        "Name": "Long-Sleeve Logo Jersey, M",
+        "ListPrice": 49.99,
+        "ThumbNailPhoto": "base64_encoded_string_here"
+      }
+    ],
+    "total_count": 295,
+    "total_pages": 30
+  }
+}
